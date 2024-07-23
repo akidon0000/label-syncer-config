@@ -10,4 +10,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          manifest: path/to/manifest/labels.yml
+          manifest: ../labels.yml
