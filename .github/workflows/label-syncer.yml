@@ -1,10 +1,6 @@
 name: Sync labels
 on:
   push:
-    branches:
-      - master
-    paths:
-      - path/to/manifest/labels.yml
 jobs:
   build:
     runs-on: ubuntu-latest
