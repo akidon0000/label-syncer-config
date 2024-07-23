@@ -1,0 +1,1 @@
+# label-syncer-config
