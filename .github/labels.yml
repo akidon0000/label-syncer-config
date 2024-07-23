@@ -1,9 +1,6 @@
-- name: bug
-  description: Something isn't working
+- name: test
+  description: test-1
   color: d73a4a
-- name: documentation
-  description: Improvements or additions to documentation
+- name: test2
+  description: test-2
   color: 0075ca
-- name: duplicate
-  description: This issue or pull request already exists
-  color: cfd3d7
