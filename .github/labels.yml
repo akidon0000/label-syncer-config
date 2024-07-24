@@ -1,45 +1,39 @@
 # Default GitHub labels
-- color: d73a4a
-  name: bug
-  description: Something isn't working
-- color: cfd3d7
-  name: duplicate
-  description: This issue or pull request already exists
-- color: a2eeef
-  name: enhancement
-  description: New feature or request
+# 参考: https://github.com/shinGangan のlebel
+
+- color: FC2C2B
+  name: 🐛Type: Bug
+  description: 不具合の修正
+- color: E2601E
+  name: 🏠Type: Chore
+  description: ツールやライブラリの変更等の雑用
+- color: 5319E7
+  name: 🏯Type: Design
+  description: デザインの修正
+- color: 0075ca
+  name: 📝Type: Document
+  description: ドキュメントの修正
+- color: f19db5
+  name: 🚀Type: Feature
+  description: 新規機能
+- color: 1D76DB
+  name: 🚴‍♂️Type: Enhancement
+  description: 機能強化、改善
+- color: D93F0B
+  name: 🔥Priority:High
+  description: 優先度:高
+- color: 30E986
+  name: 🏕️Priority: Low
+  description: 優先度:低
+- color: FBCA04
+  name: ❓Questions
+  description: Further information is requested
 - color: 7057ff
   name: good first issue
   description: Good for newcomers
 - color: 008672
   name: help wanted
   description: Extra attention is needed
-- color: e4e669
-  name: invalid
-  description: This doesn't seem right
-- color: d876e3
-  name: question
-  description: Further information is requested
-- color: ffffff
-  name: wontfix
-  description: This will not be worked on
-
-# Labels specific to cloudalchemy
-- color: 0366d6
-  name: area/docs
-  description: Improvements or additions to documentation
-- color: 0366d6
-  name: area/tests
-  description: Everything related to molecule tests and linters
-- color: 0366d6
-  name: area/automation
-  description: Bots, bots everywhere
-- color: 0366d6
-  name: area/vars
-  description: Ansible variables used in role
-- color: 0366d6
-  name: area/tasks
-  description: Logic behind ansible role
-- color: 0366d6
-  name: area/jinja
-  description: Templates
+- color: 3E2B48
+  name: 🤖renovate
+  description: Renovate bot
