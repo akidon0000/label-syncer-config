@@ -1,9 +1,7 @@
 name: Sync Labels
 on:
   push:
-    branches:
-      - main
-      - feature/label-create-yml
+    branches: [main, feature/label-create-yml]
     paths:
       - .github/labels.yml
 jobs:
