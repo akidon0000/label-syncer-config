@@ -2,7 +2,7 @@ name: Sync Labels
 on:
   workflow_dispatch:
   push:
-    branches: [main, develop]
+    branches: [main, develop, feature/label-create]
 jobs:
   sync-labels:
     permissions:
