@@ -1,39 +1,39 @@
 # Default GitHub labels
-# 参考: https://github.com/shinGangan のlebel
+# 参考: https://github.com/shinGangan のlabel
 
 - color: FC2C2B
-  name: 🐛Type: Bug
-  description: 不具合の修正
+  name: "🐛Type: Bug"
+  description: "不具合の修正"
 - color: E2601E
-  name: 🏠Type: Chore
-  description: ツールやライブラリの変更等の雑用
+  name: "🏠Type: Chore"
+  description: "ツールやライブラリの変更等の雑用"
 - color: 5319E7
-  name: 🏯Type: Design
-  description: デザインの修正
+  name: "🏯Type: Design"
+  description: "デザインの修正"
 - color: 0075ca
-  name: 📝Type: Document
-  description: ドキュメントの修正
+  name: "📝Type: Document"
+  description: "ドキュメントの修正"
 - color: f19db5
-  name: 🚀Type: Feature
-  description: 新規機能
+  name: "🚀Type: Feature"
+  description: "新規機能"
 - color: 1D76DB
-  name: 🚴‍♂️Type: Enhancement
-  description: 機能強化、改善
+  name: "🚴‍♂️Type: Enhancement"
+  description: "機能強化、改善"
 - color: D93F0B
-  name: 🔥Priority:High
-  description: 優先度:高
+  name: "🔥Priority:High"
+  description: "優先度:高"
 - color: 30E986
-  name: 🏕️Priority: Low
-  description: 優先度:低
+  name: "🏕️Priority: Low"
+  description: "優先度:低"
 - color: FBCA04
-  name: ❓Questions
-  description: Further information is requested
+  name: "❓Questions"
+  description: "Further information is requested"
 - color: 7057ff
-  name: good first issue
-  description: Good for newcomers
+  name: "good first issue"
+  description: "Good for newcomers"
 - color: 008672
-  name: help wanted
-  description: Extra attention is needed
+  name: "help wanted"
+  description: "Extra attention is needed"
 - color: 3E2B48
-  name: 🤖renovate
-  description: Renovate bot
+  name: "🤖renovate"
+  description: "Renovate bot"
