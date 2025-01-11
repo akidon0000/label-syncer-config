@@ -5,7 +5,7 @@
 ラベルを同期したいリポジトリのルートディレクトリに `.github/workflows/label-syncer.yml` を作成し、以下の内容を記述してください。
 
 ```label-syncer.yaml
-# ラベルを自動で同期するためのワークフロー
+# ラベルを毎週月曜日の午前9時に自動で同期するためのワークフロー
 # https://github.com/akidon0000/label-syncer-config を参照してください
 
 name: Sync Labels
@@ -13,8 +13,7 @@ on:
     workflow_dispatch:
     schedule:
         - cron: "0 9 * * 1"
-    push:
-        branches: [master, main]
+        
 jobs:
   sync-labels:
     permissions:
@@ -35,7 +34,8 @@ jobs:
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           with:
-            manifest: label-syncer-config/.github/labels.yml
+            manifest: label-syncer-config/base-labels.yml
+
 ```
 
 ## ライセンス
