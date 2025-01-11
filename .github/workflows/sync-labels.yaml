@@ -2,7 +2,7 @@ name: Sync Labels
 on:
     workflow_dispatch:
     push:
-        branches: [main, feature/label-create-yml]
+        branches: [main]
 jobs:
   sync-labels:
     permissions:
@@ -14,4 +14,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          manifest: .github/labels.yml
+          manifest: base-labels.yml
