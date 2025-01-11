@@ -1,39 +1,39 @@
 # Default GitHub labels
 # 参考: https://github.com/shinGangan のlabel
 
-- color: FC2C2B
-  name: "🐛Type: Bug"
-  description: "不具合の修正"
-- color: E2601E
-  name: "🏠Type: Chore"
-  description: "ツールやライブラリの変更等の雑用"
-- color: 5319E7
-  name: "🏯Type: Design"
-  description: "デザインの修正"
-- color: 0075ca
-  name: "📝Type: Document"
-  description: "ドキュメントの修正"
 - color: f19db5
-  name: "🚀Type: Feature"
-  description: "新規機能"
-- color: 1D76DB
-  name: "🚴‍♂️Type: Enhancement"
-  description: "機能強化、改善"
+  name: "ADR 🏯"
+  description: "Architectural Decision Records"
+- color: d73a4a
+  name: "bugs 🐞"
+  description: "Bugs or issues"
+- color: f08300
+  name: "chore 🏠"
+  description: "Routine tasks or maintenance"
+- color: 742581
+  name: "design 🏯"
+  description: "Design-related tasks and discussions"
+- color: 0075ca
+  name: "docs ✍️"
+  description: "Documentation tasks and updates"
+- color: 5bbee4
+  name: "enhancement 🚀"
+  description: "New feature or request"
 - color: D93F0B
-  name: "🔥Priority:High"
-  description: "優先度:高"
+  name: "high priority 🔥"
+  description: "Tasks that require immediate attention"
 - color: 30E986
-  name: "🏕️Priority: Low"
-  description: "優先度:低"
-- color: FBCA04
-  name: "❓Questions"
+  name: "low priority 🏕️"
+  description: "Tasks with low priority and slow progress"
+- color: E2E9B1
+  name: "question❓"
   description: "Further information is requested"
-- color: 7057ff
-  name: "good first issue"
-  description: "Good for newcomers"
-- color: 008672
-  name: "help wanted"
-  description: "Extra attention is needed"
+- color: c5def5
+  name: "refactoring 🧰"
+  description: "Refactoring"
 - color: 3E2B48
-  name: "🤖renovate"
-  description: "Renovate bot"
+  name: "renovate 🤖"
+  description: "Rnovate bot"
+- color: e4e669
+  name: "testing ✅"
+  description: "testing"
