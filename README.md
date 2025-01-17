@@ -13,16 +13,13 @@ on:
     workflow_dispatch:
     schedule:
         - cron: "0 9 * * 1"
-        
+
 jobs:
   sync-labels:
     permissions:
       issues: write
     runs-on: ubuntu-latest
     steps:
-        - name: Checkout the current repository
-          uses: actions/checkout@v4
-
         - name: Checkout the label-syncer-config repository
           uses: actions/checkout@v4
           with:
