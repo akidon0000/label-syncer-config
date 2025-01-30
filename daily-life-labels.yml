@@ -1,0 +1,77 @@
+# 日記用 GitHub labels
+
+labels:
+
+  - name: "🔄 振り返り・反省"
+    color: "A2FAA3"
+    description: "日記の中で振り返りを含むもの"
+
+  - name: "🧠 学び"
+    color: "F4D03F"
+    description: "技術や生活での学びがあった日"
+
+  - name: "🎉 イベント"
+    color: "E67E22"
+    description: "参加したイベントに関する記録"
+
+  - name: "✈️ 旅行"
+    color: "58D68D"
+    description: "旅行に関する日記"
+
+  - name: "💬 感想"
+    color: "AED6F1"
+    description: "本・映画・ゲーム・記事などの感想"
+
+  - name: "💡 アイデア"
+    color: "9B59B6"
+    description: "新しいアイデアや考えを書いたもの"
+
+  - name: "🤒 体調"
+    color: "D98880"
+    description: "体調の記録"
+
+  - name: "🍽️ 食事"
+    color: "F7DC6F"
+    description: "食事に関する日記"
+
+  - name: "💼 仕事"
+    color: "85C1E9"
+    description: "仕事関連の出来事"
+
+  - name: "🎮 趣味"
+    color: "D2B4DE"
+    description: "趣味や遊びに関すること"
+
+  - name: "🚀 チャレンジ"
+    color: "E59866"
+    description: "新しい挑戦や取り組み"
+
+  - name: "🧘 メンタル"
+    color: "EC7063"
+    description: "気分や精神状態の記録"
+    
+  # 記憶に残したい日
+  - name: "📌 記憶に残したい"
+    color: "3498DB"
+    description: "特別な出来事があった日や、忘れたくない日"
+
+  # 満足度
+  - name: "😊 最高！"
+    color: "2ECC71"
+    description: "とても満足した日"
+
+  - name: "🙂 良い"
+    color: "F1C40F"
+    description: "まあまあ満足できた日"
+
+  - name: "😐 普通"
+    color: "95A5A6"
+    description: "特に大きな出来事がない普通の日"
+
+  - name: "😕 いまいち"
+    color: "E67E22"
+    description: "少し不満があった日"
+
+  - name: "😢 最悪"
+    color: "E74C3C"
+    description: "とても辛かった日"
